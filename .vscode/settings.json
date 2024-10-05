@@ -1,0 +1,70 @@
+{
+  "editor.fontSize": 15,
+  "editor.lineHeight": 22,
+  "editor.rulers": [127],
+  "editor.wordWrapColumn": 127,
+  "files.trimTrailingWhitespace": true,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Menlo, Consolas, DejaVu Sans Mono, monospace",
+  "eslint.enable": true,
+  "eslint.validate": ["javascript"],
+  "eslint.workingDirectories": ["./"],
+  "files.exclude": {
+    "out": true,
+    "staticfiles": true,
+    "**/node_modules/**": true
+  },
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.formatOnSave": true,
+    "editor.rename.enablePreview": true,
+    "editor.suggest.preview": true
+  },
+  "markdown.extension.print.theme": "dark",
+  "markdown.extension.toc.slugifyMode": "github",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "prettier.tabWidth": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}
