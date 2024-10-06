@@ -139,6 +139,8 @@ mermaid:
 # Enable or disable heading anchors
 heading_anchors: true
 
+markdown: kramdown
+
 kramdown:
   syntax_highlighter_opts:
     block:
